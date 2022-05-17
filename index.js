@@ -1,1 +1,3 @@
-console.log('Hello World!');
+const args = require('./src/config/yargs');
+
+console.log(args);
